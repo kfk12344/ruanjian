@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Test scratch directories created by the suites
+.test-scratch/
+
+# Per-run output (examples/sample-run is committed on purpose)
+runs/
+reports/
+.codeagent_tmp/
+
+# Local configuration and logs
+.env
+*.log
+trace.jsonl
